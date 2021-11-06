@@ -1,5 +1,4 @@
 # Raisebubu - 募資電商網站
-###### tags: `raisebubu` `Self Project`
 
 > RaiseBuBu - 集資車車
 > 立即註冊上車，你可以消費，也可以提案。
