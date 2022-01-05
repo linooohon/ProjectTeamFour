@@ -29,7 +29,8 @@
 
 > 分為前台與後台:
 
-[前台](https://raisebubufront.azurewebsites.net/): 
+#### 前台:
+<!-- [前台](https://raisebubufront.azurewebsites.net/):  -->
 
 一個募資結合電商功能的平台，提供完整的提案流程加上車車商城電商擁有完整購物車功能。 前後台皆採用 Repository Pattern + Service Layer 的分層架構，前台配合 MVC - Razor Page 製作前端頁面，後台前端使用以Vue.js 對資料欄位做 Binding、後端提供 API 的方式，透過 Axios 請求 API 對資料庫動作，後端 API 使用 .Net Core 並實踐 DI 相依性注入來降低類別或模組之間的耦合度，並使用 ORM - Entity Framework 實作 CRUD，網站實現 更新提案募資狀況、金額、時間、草稿續存修改等功能，且能依照提案者需求 將募資成功專案續留車車專區 續售服務。
 
@@ -39,7 +40,8 @@
 ![](https://i.imgur.com/oP8LM9S.png)
 
 
-[後台](https://raisebububack.azurewebsites.net/):
+#### 後台:
+<!-- [後台](https://raisebububack.azurewebsites.net/): -->
 
 以 ASP.NET Core 為主，後台功能主要包括專案審核與拒絕、權限管理、會員管理、訂單管理、網站狀態圖表分析 ，與前台較不相同的是落實前後端分離的概念，使用 DI 注入，依賴介面而不依賴實作，因抽象化實作，故抽換實作也變得容易，使整個專案更有架構。
 - 測試客服帳密:  帳號: linooohon@gmail.com  密碼: linooohon
